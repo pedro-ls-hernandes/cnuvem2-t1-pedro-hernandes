@@ -25,20 +25,20 @@ A plataforma escolhida para o projeto foi a *Azure*. Decidi escolher a plataform
 > Foram utilizados o Azure Blob Storage para armazenamento e Azure MySQL para o banco de dados. Ambos foram configurados utilizando os tiers grátis e de menores custos disponíveis dentro da plataforma.
 
 ### Azure Blob Storage
-    - *Assinatura:* Azure for Students
-    - *Região:* Brazil South
-    - *Performance:* Standard
-    - *Redundância:* Armazenamento com redundância local (LRS)
-    - *Camada de acesso:* Frio
-    - *Acesso à rede pública:* Habilitado para fins de estudo, porém permitido à IPs selecionados
+- **Assinatura:** Azure for Students
+- **Região:** Brazil South
+- **Performance:** Standard
+- **Redundância:** Armazenamento com redundância local (LRS)
+- **Camada de acesso:** Frio
+- **Acesso à rede pública:** Habilitado para fins de estudo, porém permitido à IPs selecionados
 
 ### Azure MySQL
-    - *Assinatura:* Azure for Students
-    - *Região:* East US
-    - *Tipo de carga de trabalho:* Desenvolvimento/Teste - SKU STandard_B1ms
-    - *Firewall:* Sem regra
-    - *Alta disponivilidade:* Desabilitada (SLA de 99,9%)
-    - *Backup:* Sem backup
+- **Assinatura:** Azure for Students
+- **Região:** East US
+- **Tipo de carga de trabalho:** Desenvolvimento/Teste - SKU STandard_B1ms
+- **Firewall:** Sem regra
+- **Alta disponivilidade:** Desabilitada (SLA de 99,9%)
+- **Backup:** Sem backup
 # 6. Diagrama de arquitetura
 
 # 7. Pré-requisitos do sistema
