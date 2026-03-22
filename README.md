@@ -1,8 +1,8 @@
 # Atividade 4.1 Computação em Nuvem II
-> *Aluno:* Pedro Lucas dos Santos Hernandes
-> *6º Semestre de DSM*
-> *Disciplina:* Computação em Nuvem II (ISW035)
-> *Professor:* Ronan Adriel Zenatti — FATEC Jahu / Centro Paula Souza
+> **Aluno:** Pedro Lucas dos Santos Hernandes
+> **6º Semestre de DSM**
+> **Disciplina:** Computação em Nuvem II (ISW035)
+> **Professor:** Ronan Adriel Zenatti — FATEC Jahu / Centro Paula Souza
 
 # 1. Objetivo da atividade
 Demonstrar, de forma prática, a capacidade de provisionar e integrar serviços de armazenamento em nuvem — object storage (container/bucket) e banco de dados MySQL gerenciado — conectando-os a uma aplicação funcional desenvolvida na linguagem de programação do projeto interdisciplinar.
@@ -34,7 +34,7 @@ A plataforma escolhida para o projeto foi a *Azure*. Decidi escolher a plataform
 
 ### Azure MySQL
     - *Assinatura:* Azure for Students
-    - *Região:* Brazil South
+    - *Região:* East US
     - *Tipo de carga de trabalho:* Desenvolvimento/Teste - SKU STandard_B1ms
     - *Firewall:* Sem regra
     - *Alta disponivilidade:* Desabilitada (SLA de 99,9%)
