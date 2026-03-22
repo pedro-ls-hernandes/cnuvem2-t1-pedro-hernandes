@@ -63,7 +63,8 @@ A plataforma escolhida para o projeto foi a *Azure*. Decidi escolher a plataform
 - 3. Instale as dependências
 ```npm install```
 - 4. Crie um arquivo **.env** ou renomeie o **.env.example** para .env e então configure as variáveis de ambiente acessadas através da plataforma
-- 5. Inicie o app
+- 5. Configure os arquivos a serem utilizados no serviço de Armazenamento Blob através do arquivo **app.js**, alterando os valores dentro das funções da **main**
+- 6. Inicie o app
 ```npm start```
 
 # 9. Evidências
