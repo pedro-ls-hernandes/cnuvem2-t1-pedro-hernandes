@@ -1,8 +1,8 @@
 # Atividade 4.1 Computação em Nuvem II
-> **Aluno:** Pedro Lucas dos Santos Hernandes
-> **6º Semestre de DSM**
-> **Disciplina:** Computação em Nuvem II (ISW035)
-> **Professor:** Ronan Adriel Zenatti — FATEC Jahu / Centro Paula Souza
+> **Aluno:** Pedro Lucas dos Santos Hernandes<br>
+> **6º Semestre de DSM**<br>
+> **Disciplina:** Computação em Nuvem II (ISW035)<br>
+> **Professor:** Ronan Adriel Zenatti — FATEC Jahu / Centro Paula Souza<br>
 
 # 1. Objetivo da atividade
 Demonstrar, de forma prática, a capacidade de provisionar e integrar serviços de armazenamento em nuvem — object storage (container/bucket) e banco de dados MySQL gerenciado — conectando-os a uma aplicação funcional desenvolvida na linguagem de programação do projeto interdisciplinar.
@@ -46,8 +46,16 @@ A plataforma escolhida para o projeto foi a *Azure*. Decidi escolher a plataform
 > Após isso, vá até o recurso criado e procure pelas informações de conexão disponíveis em **Visão Geral** ou em **Configurações -> Conectar**, para informações mais detalhadas. Após isso, basta fazer a conexão com o banco através do seu workbench SQL de preferência.
 
 # 6. Diagrama de arquitetura
+<img width="1760" height="1360" alt="Estrutura básica do Azure (2019) (1)" src="https://github.com/user-attachments/assets/74a10b70-3abb-444b-affa-b9bc5e8c4826" />
 
 # 7. Estrutura da tabela MySQL
+- Diagrama das tabelas <br>
+<img width="624" height="589" alt="diagrama tabela" src="https://github.com/user-attachments/assets/0fd4b2cc-1255-49e2-b25b-3916aaea4806" /> <br>
+- Tabela de clientes<br>
+<img width="594" height="128" alt="clientes inseridos" src="https://github.com/user-attachments/assets/cdc1db35-d074-45e6-a865-60d00af2f998" /><br>
+- Tabela de entregas<br>
+<img width="1316" height="128" alt="entregas inseridas" src="https://github.com/user-attachments/assets/4d3748c0-ea91-46c9-9557-8e60b38fcc42" /><br>
+
 
 # 7. Pré-requisitos
 - Node.js
@@ -56,15 +64,15 @@ A plataforma escolhida para o projeto foi a *Azure*. Decidi escolher a plataform
 - Assinatura Azure
 
 # 8. Como executar
-- 1. Clone o repositório no destino de sua preferência
-```git clone https://github.com/pedro-ls-hernandes/cnuvem2-t1-pedro-hernandes.git ```
-- 2. Acesse o repositório da maneira que preferir (terminal direto ou editor de sua escolha)
+1. Clone o repositório no destino de sua preferência <br>
+`git clone https://github.com/pedro-ls-hernandes/cnuvem2-t1-pedro-hernandes.git`
+2. Acesse o repositório da maneira que preferir (terminal direto ou editor de sua escolha)<br>
 ```cd cnuvem2-t1-pedro-hernandes ```
-- 3. Instale as dependências
+3. Instale as dependências<br>
 ```npm install```
-- 4. Crie um arquivo **.env** ou renomeie o **.env.example** para .env e então configure as variáveis de ambiente acessadas através da plataforma
-- 5. Configure os arquivos a serem utilizados no serviço de Armazenamento Blob através do arquivo **app.js**, alterando os valores dentro das funções da **main**
-- 6. Inicie o app
+4. Crie um arquivo **.env** ou renomeie o **.env.example** para .env e então configure as variáveis de ambiente acessadas através da plataforma
+5. Configure os arquivos a serem utilizados no serviço de Armazenamento Blob através do arquivo **app.js**, alterando os valores dentro das funções da **main**
+6. Inicie o app<br>
 ```npm start```
 
 # 9. Evidências
